@@ -5,7 +5,7 @@ const CommentDetail = () => {
   return (
     <div className='comment'>
     <a href='/' className='avatar'>
-      <img alt='avatar' src={faker.image.avatar()}/>
+      <img alt='avatar' src={faker.image.image()}/>
     </a>
     <div className="content">
       <a href='/' className='author'>
@@ -19,3 +19,5 @@ const CommentDetail = () => {
   </div>        
   );
 };
+
+export default CommentDetail;
